@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <!--javascript arrays-->
+    <h2>JavaScript Arrays</h2>
+
+    <p class="demo"></p>
+    <script>
+    var numbers = ["1", "2", "3"];
+    document.getElementsByClassName("demo")[0].innerHTML = numbers;
+    </script>
+    <!--using new object-->
+    <h2>JavaScript Arrays</h2>
+
+<p id="demo"></p>
+
+<script>
+var cars = new Array("Saab", "Volvo", "BMW");
+document.getElementById("demo").innerHTML = cars;
+</script>
+<!--assign values-->
+<h1>initialiaze value</h1>
+<p id="demo1"></p>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo1").innerHTML = cars[1];
+</script>
+<!--assign numeric values-->
+<p id="demo4"></p>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+cars[2] = "Opel";
+document.getElementById("demo4").innerHTML = cars;
+</script>
+<!--java values-->
+
+<p id="demo5"></p>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo5").innerHTML = cars;
+</script>
+<!--array changing values-->
+<p id="demo6"></p>
+
+<script>
+var person = ["John", "Doe", 46];
+document.getElementById("demo6").innerHTML = person[0];
+</script>
+    </body>
+</html>
